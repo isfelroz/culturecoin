@@ -1,0 +1,65 @@
+---
+import { Image } from 'astro:assets'
+import placeholder from '../../assets/images/placeholder.jpg'
+---
+
+<div class="py-24">
+    <div class="grid lg:grid-cols-2 place-items-center container gap-28">
+        <div class="py-6 md:order-1 hidden md:block">
+            <Image src={placeholder} alt="A description of my image." />
+        </div>
+        <div>
+            <h2 class="text-3xl text-black lg:text-6xl xl:text-4xl font-bold lg:tracking-tight xl:tracking-tighter">Criptomoneda con Propósito</h2>
+            <p class="mt-4 text-gray-600 max-w-xl">
+                Nuestro proyecto va más allá de la innovación tecnológica. Hemos creado una criptomoneda que no solo busca proporcionar valor a
+                nuestros inversores, sino que también está diseñada para apoyar la conservación de las guacamayas, una especie vital para nuestros
+                ecosistemas.
+            </p>
+
+            <div class="mt-6 flex flex-col gap-8">
+                <div class="flex space-x-4">
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 lg:w-16">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                            ><path
+                                fill-rule="evenodd"
+                                d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
+                                clip-rule="evenodd"></path></svg
+                        >
+                    </div>
+                    <div>
+                        <h4 class="mb-2 text-xl font-bold text-black">Segura y Transparente</h4>
+                        <p class="text-gray-600">Basada en tecnología blockchain de última generación.</p>
+                    </div>
+                </div>
+                <div class="flex space-x-4">
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 lg:w-16">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                            ><path
+                                fill-rule="evenodd"
+                                d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
+                                clip-rule="evenodd"></path></svg
+                        >
+                    </div>
+                    <div>
+                        <h4 class="mb-2 text-xl font-bold text-black">Sostenible</h4>
+                        <p class="text-gray-600">Parte de las transacciones se destinan directamente al refugio de guacamayas.</p>
+                    </div>
+                </div>
+                <div class="flex space-x-4">
+                    <div class="flex justify-center items-center mb-4 w-10 h-10 lg:w-16">
+                        <svg class="w-10 h-10" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"
+                            ><path
+                                fill-rule="evenodd"
+                                d="M3 3a1 1 0 000 2v8a2 2 0 002 2h2.586l-1.293 1.293a1 1 0 101.414 1.414L10 15.414l2.293 2.293a1 1 0 001.414-1.414L12.414 15H15a2 2 0 002-2V5a1 1 0 100-2H3zm11.707 4.707a1 1 0 00-1.414-1.414L10 9.586 8.707 8.293a1 1 0 00-1.414 0l-2 2a1 1 0 101.414 1.414L8 10.414l1.293 1.293a1 1 0 001.414 0l4-4z"
+                                clip-rule="evenodd"></path></svg
+                        >
+                    </div>
+                    <div>
+                        <h4 class="mb-2 text-xl font-bold text-black">Accesible para Todos</h4>
+                        <p class="text-gray-600">Fácil de adquirir y usar, independientemente de tu nivel de experiencia en criptomonedas.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

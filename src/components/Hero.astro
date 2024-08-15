@@ -1,0 +1,18 @@
+---
+import { Image } from 'astro:assets'
+import heroImage from '../assets/images/hero-image.png'
+import Button from './shared/Button.astro'
+---
+
+<section class="py-8 px-4 mx-auto container text-center lg:py-16 lg:px-12 flex flex-col items-center">
+    <div class="w-32">
+        <Image src={heroImage} alt="A description of my image." />
+    </div>
+    <h1 class="text-5xl lg:text-6xl xl:text-7xl font-bold lg:tracking-tight xl:tracking-tighter">Invierte en el Futuro y Protege la Naturaleza</h1>
+    <p class="text-lg mt-4 text-gray-600 max-w-xl">
+        Una criptomoneda única inspirada en la belleza y conservación de las guacamayas. Únete a la revolución que impulsa el cambio ambiental.
+    </p>
+    <div class="mt-6 flex flex-col sm:flex-row gap-3 justify-center">
+        <Button label="Descubre Más" href="/" />
+    </div>
+</section>
