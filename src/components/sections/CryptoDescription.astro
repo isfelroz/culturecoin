@@ -1,12 +1,7 @@
----
-import { Image } from 'astro:assets'
-import placeholder from '../../assets/images/placeholder.jpg'
----
-
 <div class="py-24">
     <div class="grid lg:grid-cols-2 place-items-center container gap-28">
         <div class="py-6 md:order-1 hidden md:block">
-            <Image src={placeholder} alt="A description of my image." />
+            <img decoding="async" src="/img/placeholder.jpg" alt="Place holder image" />
         </div>
         <div>
             <h2 class="text-3xl text-black lg:text-6xl xl:text-4xl font-bold lg:tracking-tight xl:tracking-tighter">Criptomoneda con Propósito</h2>
